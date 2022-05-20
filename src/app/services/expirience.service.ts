@@ -34,7 +34,27 @@ export class ExpirienceService {
     started_on: "April 2016",
     till: "November 2016",
     type: "Contract",
-    time: "07 Months"
+    time: "07 Months",
+    description: "One of leading companies in UK offered me contract based job, that was for automating the printing coorporation with a website, This phase was extended to include the ecommerce platform for their organization as well as website builder dashboard for their website.",
+    responsibilities: [
+      "Showcase of the products",
+      "Categorization of the designs on the site",
+      "Advanced pricing with Quantity vs. Quality ratio",
+      "Search engine optimization of the website",
+      "Online customization of the product display",
+      "Cart Features",
+      "Recording customer feedbacks",
+      "Different payment integrations"
+    ],
+    skills: [
+      "Php",
+      "Bootstrap",
+      "Html",
+      "Css",
+      "Jquery",
+      "3rd Party Integration, i.e Paypal",
+      "Algorithms for user specific pricing"
+    ]
   }, {
     name: "Upwork | Fiverr | Local Vendors",
     title: "Backend Developer",
