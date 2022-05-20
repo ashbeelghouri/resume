@@ -61,7 +61,34 @@ export class ExpirienceService {
     started_on: "December 2016",
     till: "July 2018",
     type: "Freelance",
-    time: "01 Year, 06 Months"
+    time: "01 Year, 06 Months",
+    description: "In this period of time, I have got various type of projects, which includes frontend, backend and Database administration from multiple vendors.",
+    responsibilities: [
+      "Creating One-Page websites",
+      "Debugging the issues on the existing website with multiple teams",
+      "Writing python scripts for the existing applications",
+      "Creating new components for different sites",
+      "Create an ecommerce platform for local vendors",
+      "Doing Seo for the applications",
+      "Deployment of applications on different hosting sites",
+      "Creating Graphic Designs | Visiting Cards, Animations and much more"
+    ],
+    skills: [
+      "Php",
+      "Jquery",
+      "NodeJs",
+      "Angular",
+      "Python",
+      "Html",
+      "Css",
+      "Javascript",
+      "Jquery",
+      "Seo",
+      "Bootstrap | Materialgrammi",
+      "Adobe Photoshop | Illustrator | After Effect",
+      "IT Support",
+      "Requirement Analysis"
+    ]
   }, {
     name: "Ticket Manager",
     title: "Lead Software Engineer",

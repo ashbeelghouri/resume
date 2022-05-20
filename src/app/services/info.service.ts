@@ -4,6 +4,13 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class InfoService {
-
+  allowed = {
+    bio: true,
+    certificates: true,
+    education: true,
+    expirience: true,
+    projects: true,
+    skills: true
+  };
   constructor() { }
 }
