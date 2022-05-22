@@ -1,5 +1,30 @@
 <div class="row pad-10 blue">
-    <div class="col m6 l6 s12">
-        <h1>Ashbeel Ghouri</h1>
+    <div class="col m8 l8 s8 padL-15">
+        <h1 class="text-grey2 font-25 bold"> <span>{{bio.get("name")}}</span></h1>
+        <h4 class="text-grey3 font-17">{{bio.get("title")}}</h4>
+        <p class="text-grey1">{{bio.get("email")}}</p>
+    </div>
+    <div class="col m4 l4 s4">
+        <p class="text-grey3"><B>Contact:</B> {{bio.get("contact_number")}}</p>
+        <p class="text-grey3"><B>Github:</B> {{bio.get("github")}}</p>
+        <p class="text-grey3"><B>LinkedIn:</B> {{bio.get("linkedin")}}</p>
+    </div>
+</div>
+<div class="row pad-10 grey2 text-grey10">
+    <div class="col m8 l8 s8 pad-5">
+        <h3 class="text-grey2 margin-5 marginB-10"><span class="pad-5 blue shadow-1" style="display: inline-block;">Work Expirience</span><mg-chip theme="dark" class="font-12 padL-5 padR-5 padY-2">{{bio.get("expirience")}}</mg-chip></h3>
+        <div class="margin-5 pad-10 grey1 shadow-1" *ngFor = "let ex of exp.expirience">
+            <h4 class="text-grey8"><span class="bold" [innerText]="ex.name"></span> - <span class="font-14" [innerText]="ex.time"></span> <span [innerText]="' (' + ex.started_on" class="font-12"></span> <span class="font-12"> to </span> <span [innerText]="' ' + ex.till + ')'" class="font-12"></span></h4>
+            <p class="text-grey7 text-justify" [innerText]="ex.description"></p>
+            <h5 class="padT-5 text-grey7 bold">Skills</h5>
+            <ng-container *ngFor="let skill of ex.skills">
+                <mg-chip theme="warning" class="marginY-3 padX-5">{{skill}}</mg-chip>
+            </ng-container>
+            <h5 class="padT-5 text-grey7 bold">Responsibilities</h5>
+            <p class="text-grey7" *ngFor="let res of ex.responsibilities">- <span [innerText]="res"></span> </p>
+        </div>
+    </div>
+    <div class="col m4 l4 s4 grey3 pad-5">
+        <h3 class="text-blue8">Skills | Strengths</h3>
     </div>
 </div>

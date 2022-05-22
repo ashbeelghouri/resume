@@ -27,7 +27,8 @@ export class ExpirienceService {
       "Html",
       "Css",
       "Jquery"
-    ]
+    ],
+    accomplishments: false
   }, {
     name: "Graphics Junction",
     title: "Website Developer",
@@ -54,7 +55,11 @@ export class ExpirienceService {
       "Jquery",
       "3rd Party Integration, i.e Paypal",
       "Algorithms for user specific pricing"
-    ]
+    ],
+    accomplishments: [{
+      name: "Happy Customer",
+      description: "Customer was happy with the development of the website"
+    }]
   }, {
     name: "Upwork | Fiverr | Local Vendors",
     title: "Backend Developer",
@@ -88,10 +93,11 @@ export class ExpirienceService {
       "Adobe Photoshop | Illustrator | After Effect",
       "IT Support",
       "Requirement Analysis"
-    ]
+    ],
+    accomplishments: false
   }, {
     name: "Ticket Manager",
-    title: "Lead Software Engineer",
+    title: "Software Engineer | Lead Microservices",
     started_on: "July 2018",
     till: "September 2021",
     type: "Full-Time | Onsite",
@@ -118,7 +124,7 @@ export class ExpirienceService {
     ],
     skills: [
       "Php",
-      "NodeJs",
+      "NodeJs | ExpressJs | NestJs",
       "Angular",
       "MySql",
       "AWS Lambda",
@@ -127,22 +133,57 @@ export class ExpirienceService {
       "AWS Cloudwatch",
       "AWS SNS | SQS | Secrets Manager",
       "ElasticSearch",
+      "Swagger",
       "Html",
       "Css",
       "Javascript",
       "Bootstrap",
       "IT Support",
       "Work breakdown",
-      "Collaborating with teams",
-      "leading the project"
-    ]
+      "Collaborations",
+      "leadership"
+    ],
+    accomplishments: [{
+      name: "All-Star",
+      description: "This title represents the annual performance highest rate in the whole organization."
+    }]
   }, {
     name: "Focusteck",
-    title: "Full Stack Developer",
+    title: "Full Stack Developer | Lead Software Engineer",
     started_on: "October 2021",
     till: "Present",
     type: "Full-Time | Remote",
-    time: "08 Months"
+    time: "08 Months",
+    description: "",
+    responsibilities: [
+      "Create API endpoints",
+      "Create frontend components",
+      "Integration of API's with frontend",
+      "Creating Architecture of the module",
+      "Fixing the critical issues on the website",
+      "analyzing and improving the code-quality of the existing features",
+      "Creating the data oriented sites from scratch",
+      "Work with AWS Services for the microservices",
+      "Improving the process flow of the team",
+      "Leading microservice team",
+      "Creating the interaction recorder algorithms",
+      "Train new members of the team"
+    ],
+    skills: [
+      "NodeJs | NestJs",
+      "Angular",
+      "AWS Lambda",
+      "AWS API Gateway",
+      "AWS EC2",
+      "AWS SNS",
+      "AWS SQS",
+      "Html",
+      "Css",
+      "Javascript",
+      "Module research",
+      "Requirement Analysis"
+    ],
+    accomplishments: false
   }];
   constructor() { }
 }

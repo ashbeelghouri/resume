@@ -13,6 +13,7 @@ export class BioService {
     email: "ashbeelghouri@protonmail.com",
     github: "https://github.com/ashbeelghouri",
     linkedin: "https://www.linkedin.com/in/ashbeel-ghouri-903873104/",
+    expirience: "6 years",
     address: "Near SP House, House # 247/1, Mohalla Munawar Colony, Adyala Road, Rawalpindi, Pakistan"
   };
 
